@@ -14,10 +14,9 @@ import redux from "./tech/redux.png";
 import typescript from "./tech/typescript.png";
 import styled from "./tech/styled.png";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import cardiff from "./education/cardiff.png";
+import goit from "./education/goit.png";
+import kpi from "./education/kpi.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -38,10 +37,9 @@ export {
   redux,
   typescript,
   styled,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
+  cardiff,
+  goit,
+  kpi,
   carrent,
   jobit,
   tripguide,

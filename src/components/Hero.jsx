@@ -30,7 +30,6 @@ const Hero = () => {
           className='lg:w-[360px] sm:w-[300px] w-[280px]'
         />
       </div>
-      {/* <ComputersCanvas /> */}
     </section>
   );
 };

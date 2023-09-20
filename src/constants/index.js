@@ -10,10 +10,9 @@ import {
   git,
   figma,
   styled,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
+  cardiff,
+  goit,
+  kpi,
   carrent,
   jobit,
   tripguide,
@@ -86,13 +85,13 @@ const technologies = [
   },
 ];
 
-const experiences = [
+const education = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    title: "MSc Software Engineering",
+    universityName: "Cardiff University",
+    icon: cardiff,
+    iconBg: "#F7F9FC",
+    date: "Sep 2022 - Sep 2023",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -101,11 +100,12 @@ const experiences = [
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    title: "BSc Information Systems and Technologies",
+    universityName:
+      "National Technical University of Ukraine “Igor Sikorsky Kyiv Polytechnic Institute”",
+    icon: kpi,
+    iconBg: "#F7F9FC",
+    date: "Sep 2018 - Jun 2022",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -114,11 +114,11 @@ const experiences = [
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    title: "Full Stack Developer",
+    universityName: "GoIT",
+    icon: goit,
+    iconBg: "#F7F9FC",
+    date: "Sep 2021 - Sep 2022",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -126,19 +126,19 @@ const experiences = [
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+  // {
+  //   title: "Full stack Developer",
+  //   company_name: "Meta",
+  //   icon: meta,
+  //   iconBg: "#E6DEDD",
+  //   date: "Jan 2023 - Present",
+  //   points: [
+  //     "Developing and maintaining web applications using React.js and other related technologies.",
+  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+  //     "Implementing responsive design and ensuring cross-browser compatibility.",
+  //     "Participating in code reviews and providing constructive feedback to other developers.",
+  //   ],
+  // },
 ];
 
 const testimonials = [
@@ -234,4 +234,4 @@ const projects = [
   },
 ];
 
-export { technologies, experiences, testimonials, projects };
+export { technologies, education, testimonials, projects };
