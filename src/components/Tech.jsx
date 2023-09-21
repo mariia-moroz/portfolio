@@ -1,10 +1,8 @@
-import React from "react";
-import Tilt from "react-tilt";
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
 import { technologies } from "../constants";
-import { fadeIn, textVariant } from "../utils/motion";
+import { textVariant } from "../utils/motion";
 import TechCard from "./TechCard";
 import SectionWrapper from "./SectionWrapper";
 

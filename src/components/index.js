@@ -11,8 +11,10 @@ import About from "./About";
 import Tech from "./Tech";
 import Education from "./Education";
 import Works from "./Works";
-import Feedbacks from "./Feedbacks";
 import Contact from "./Contact";
+import TechCard from "./TechCard";
+import EducationCard from "./EducationCard";
+import ProjectCard from "./ProjectCard";
 
 export {
   Hero,
@@ -22,8 +24,10 @@ export {
   Tech,
   Education,
   Works,
-  Feedbacks,
   Contact,
+  TechCard,
+  EducationCard,
+  ProjectCard,
   EarthCanvas,
   BallCanvas,
   ComputersCanvas,

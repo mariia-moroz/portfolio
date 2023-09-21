@@ -1,11 +1,8 @@
 import React from "react";
-import Tilt from "react-tilt";
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
-import { technologies } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
-import TechCard from "./TechCard";
 import SectionWrapper from "./SectionWrapper";
 
 const About = () => {
@@ -27,11 +24,6 @@ const About = () => {
         laboriosam reiciendis modi laudantium minima doloremque libero alias,
         eligendi iusto ad aliquam.
       </motion.p>
-      <div className='mt-20 justify-center flex flex-wrap xs:gap-10 gap-6'>
-        {technologies.map((technology, index) => (
-          <TechCard key={technology.title} index={index} {...technology} />
-        ))}
-      </div>
     </>
   );
 };
