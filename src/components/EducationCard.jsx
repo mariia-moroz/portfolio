@@ -2,7 +2,8 @@ import { VerticalTimelineElement } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 
 const EducationCard = ({ education }) => {
-  const { title, universityName, icon, iconBg, date, points } = education;
+  const { title, universityName, icon, iconBg, date, location, points } =
+    education;
   return (
     <VerticalTimelineElement
       contentStyle={{ background: "#1d1836", color: "#fff" }}
