@@ -7,6 +7,7 @@ import Tech from "./sections/Tech";
 import Education from "./sections/Education";
 import Works from "./sections/Projects";
 import Contact from "./sections/Contact";
+import SoftSkills from "./elements/SoftSkills";
 import TechCard from "./elements/TechCard";
 import EducationCard from "./elements/EducationCard";
 import ProjectCard from "./elements/ProjectCard";
@@ -22,6 +23,7 @@ export {
   Education,
   Works,
   Contact,
+  SoftSkills,
   TechCard,
   EducationCard,
   ProjectCard,
