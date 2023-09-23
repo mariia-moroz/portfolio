@@ -13,7 +13,7 @@ const Tech = () => {
         <p className={styles.sectionSubText}>What I am good at</p>
         <h2 className={styles.sectionHeadText}>Technical Skills</h2>
       </motion.div>
-      <div className='mt-20 justify-center flex flex-wrap xs:gap-10 gap-6'>
+      <div className='mt-14 justify-center flex flex-wrap xs:gap-10 gap-6'>
         {technologies.map((technology, index) => (
           <TechCard key={technology.title} index={index} {...technology} />
         ))}
@@ -22,4 +22,4 @@ const Tech = () => {
   );
 };
 
-export default SectionWrapper(Tech, "tech");
+export default SectionWrapper(Tech, "skills");

@@ -2,10 +2,11 @@ import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
 
 import { fadeIn } from "../../utils/motion";
-import { GithubIcon } from "../../assets";
+import { GithubIcon, LinkIcon } from "../../assets";
 
 const ProjectCard = ({ project, index }) => {
-  const { name, description, tags, image, sourceCodeLink } = project;
+  const { name, description, tags, image, sourceCodeLink, deployedLink } =
+    project;
   return (
     <Tilt
       options={{ max: 45, scale: 1, speed: 450 }}
@@ -23,10 +24,21 @@ const ProjectCard = ({ project, index }) => {
               className='w-full h-full object-cover rounded-[10px]'
             />
           </div>
-          <div className='absolute top-4 right-4 flex justify-end m-3 card-img_hover'>
+          <div className='absolute top-4 right-4 flex justify-end gap-2 m-3 card-img_hover'>
+            {deployedLink && (
+              <div
+                onClick={() => window.open(deployedLink, "_blank")}
+                className='button-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
+              >
+                <LinkIcon
+                  className='w-[60%] h-[60%] object-contain'
+                  alt='link'
+                />
+              </div>
+            )}
             <div
               onClick={() => window.open(sourceCodeLink, "_blank")}
-              className='bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
+              className='button-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
             >
               <GithubIcon
                 className='w-[60%] h-[60%] object-contain'

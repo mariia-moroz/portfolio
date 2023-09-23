@@ -1,4 +1,3 @@
-import React from "react";
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
@@ -8,6 +7,7 @@ const SectionWrapper = (Component, idName) =>
   function HOC() {
     return (
       <motion.section
+        id={idName}
         variants={staggerContainer()}
         initial='hidden'
         whileInView='show'

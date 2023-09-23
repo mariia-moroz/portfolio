@@ -45,12 +45,39 @@ export const navLinks = [
     title: "About",
   },
   {
-    id: "work",
-    title: "Work",
+    id: "education",
+    title: "Education",
   },
   {
-    id: "contact",
-    title: "Contact",
+    id: "skills",
+    title: "Skills",
+  },
+  {
+    id: "projects",
+    title: "Projects",
+  },
+];
+
+const softSkills = [
+  {
+    title: "Flexibility",
+    percentage: 100,
+  },
+  {
+    title: "Communication",
+    percentage: 95,
+  },
+  {
+    title: "Time managemant",
+    percentage: 90,
+  },
+  {
+    title: "Problem solving",
+    percentage: 95,
+  },
+  {
+    title: "Teamwork",
+    percentage: 90,
   },
 ];
 
@@ -156,7 +183,7 @@ const projects = [
   {
     name: "Petly",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A web application that helps pets and their owners find each other. It allows users to post and view adverts to sell or put pets in good hands, contact owners, find lost pets and view pet news.",
     tags: [
       {
         name: "react",
@@ -173,14 +200,18 @@ const projects = [
       {
         name: "yup",
       },
+      {
+        name: "mongodb",
+      },
     ],
     image: petly,
     sourceCodeLink: "https://github.com/velogitara/petly-project-front",
+    deployedLink: "https://velogitara.github.io/petly-project-front",
   },
   {
     name: "Filmoteka",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Web-based platform that enables users to keep track of new movies to watch, view their IMDb ratings and info, add films to own library and watch trailers.",
     tags: [
       {
         name: "javascript",
@@ -197,23 +228,24 @@ const projects = [
     ],
     image: filmoteka,
     sourceCodeLink: "https://github.com/mariia-moroz/goit-filmoteka",
+    deployedLink: "https://mariia-moroz.github.io/goit-filmoteka",
   },
   {
     name: "Smart Metering Systems",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Web application for Smart Metering Systems UK, which serves as an interactive map showing the location and information of installed smart meters that monitor household energy consumption.",
     tags: [
-      {
-        name: "html",
-      },
-      {
-        name: "css",
-      },
       {
         name: "javascript",
       },
       {
+        name: "mongodb",
+      },
+      {
         name: "springboot",
+      },
+      {
+        name: "springsecurity",
       },
       {
         name: "leaflet",
@@ -224,7 +256,8 @@ const projects = [
     ],
     image: sms,
     sourceCodeLink: "https://github.com/mariia-moroz/sms",
+    deployedLink: null,
   },
 ];
 
-export { technologies, education, projects };
+export { technologies, education, projects, softSkills };

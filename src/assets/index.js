@@ -1,6 +1,8 @@
+import { ReactComponent as Logo } from "./logo.svg";
 import { ReactComponent as GithubIcon } from "./socials/github.svg";
 import { ReactComponent as InstagramIcon } from "./socials/instagram.svg";
 import { ReactComponent as LinkedinIcon } from "./socials/linkedin.svg";
+import { ReactComponent as LinkIcon } from "./socials/link.svg";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -28,6 +30,8 @@ export {
   GithubIcon,
   InstagramIcon,
   LinkedinIcon,
+  LinkIcon,
+  Logo,
   menu,
   close,
   css,

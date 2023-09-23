@@ -99,7 +99,7 @@ const Contact = () => {
               </label>
               <button
                 type='submit'
-                className='bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 py-3 px-16 outline-none w-fit text-white font-medium shadow-md shadow-primary rounded-xl block my-auto'
+                className='button-gradient py-3 px-16 outline-none w-fit text-white font-medium rounded-xl block my-auto'
               >
                 {loading ? "Sending..." : "Send"}
               </button>
