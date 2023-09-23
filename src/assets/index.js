@@ -1,4 +1,6 @@
-import github from "./github.png";
+import { ReactComponent as GithubIcon } from "./socials/github.svg";
+import { ReactComponent as InstagramIcon } from "./socials/instagram.svg";
+import { ReactComponent as LinkedinIcon } from "./socials/linkedin.svg";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -23,7 +25,9 @@ import filmoteka from "./projects/filmoteka.png";
 import sms from "./projects/sms.png";
 
 export {
-  github,
+  GithubIcon,
+  InstagramIcon,
+  LinkedinIcon,
   menu,
   close,
   css,

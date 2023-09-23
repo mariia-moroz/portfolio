@@ -1,11 +1,11 @@
 import { VerticalTimeline } from "react-vertical-timeline-component";
 import { motion } from "framer-motion";
 
-import { styles } from "../styles";
-import { education } from "../constants";
-import SectionWrapper from "./SectionWrapper";
-import { textVariant } from "../utils/motion";
-import EducationCard from "./EducationCard";
+import { styles } from "../../styles";
+import { education } from "../../constants";
+import SectionWrapper from "../SectionWrapper";
+import { textVariant } from "../../utils/motion";
+import { EducationCard } from "../../components";
 
 const Education = () => {
   return (

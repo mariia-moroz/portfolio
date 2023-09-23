@@ -1,9 +1,9 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-import { styles } from "../styles";
-import { fadeIn, textVariant } from "../utils/motion";
-import SectionWrapper from "./SectionWrapper";
+import { styles } from "../../styles";
+import { fadeIn, textVariant } from "../../utils/motion";
+import SectionWrapper from "../SectionWrapper";
 
 const About = () => {
   return (

@@ -34,27 +34,3 @@ const App = () => {
 };
 
 export default App;
-
-{
-  /* <BrowserRouter>
-  <div className='relative z-0 bg-primary'>
-    <div className='bg-hero-pattern bg-cover bg-no-repeat bg-center '>
-      <Navbar />
-      <div className='relative z-0'>
-        <Hero />
-        <StarsCanvas />
-      </div>
-    </div>
-    <About />
-    <Education />
-    <Tech />
-    <Works />
-    <div className='relative z-0'>
-      <Contact />
-      <StarsCanvas />
-    </div>
-    <div className='absolute inset-0 z-[-3] w-full h-full gradient-01 opacity-20'></div>
-  </div>
-  <Toaster />
-</BrowserRouter>; */
-}

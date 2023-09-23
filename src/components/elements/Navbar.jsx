@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
-import { styles } from "../styles";
-import { ReactComponent as LogoIcon } from "../assets/logo.svg";
-import { menu, close } from "../assets";
-import Menu from "./Menu";
+import { styles } from "../../styles";
+import { ReactComponent as LogoIcon } from "../../assets/logo.svg";
+import { menu, close } from "../../assets";
+import { Menu } from "../../components";
 
 const Navbar = () => {
   const [active, setActive] = useState("");

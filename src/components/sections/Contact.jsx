@@ -1,11 +1,11 @@
 import { useState, useRef } from "react";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
-
-import { styles } from "../styles";
-import SectionWrapper from "./SectionWrapper";
-import { fadeIn } from "../utils/motion";
 import toast from "react-hot-toast";
+
+import { styles } from "../../styles";
+import SectionWrapper from "../SectionWrapper";
+import { fadeIn } from "../../utils/motion";
 
 const key = "zUe8ngdjyXQh9_7tr";
 const templateId = "template_a29uaqj";

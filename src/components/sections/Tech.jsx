@@ -1,10 +1,10 @@
 import { motion } from "framer-motion";
 
-import { styles } from "../styles";
-import { technologies } from "../constants";
-import { textVariant } from "../utils/motion";
-import TechCard from "./TechCard";
-import SectionWrapper from "./SectionWrapper";
+import { styles } from "../../styles";
+import { technologies } from "../../constants";
+import { textVariant } from "../../utils/motion";
+import { TechCard } from "../../components";
+import SectionWrapper from "../SectionWrapper";
 
 const Tech = () => {
   return (

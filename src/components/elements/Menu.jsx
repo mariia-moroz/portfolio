@@ -1,6 +1,4 @@
-import React from "react";
-
-import { navLinks } from "../constants";
+import { navLinks } from "../../constants";
 
 const Menu = props => {
   const { active, setActive, isOpenMenu, setIsOpenMenu, isMobile } = props;

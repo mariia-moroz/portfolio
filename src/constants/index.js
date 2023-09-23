@@ -1,4 +1,7 @@
 import {
+  GithubIcon,
+  InstagramIcon,
+  LinkedinIcon,
   javascript,
   typescript,
   html,
@@ -17,6 +20,24 @@ import {
   filmoteka,
   sms,
 } from "../assets";
+
+export const socialLinks = [
+  {
+    title: "github",
+    icon: GithubIcon,
+    link: "https://github.com/mariia-moroz",
+  },
+  {
+    title: "instagram",
+    icon: InstagramIcon,
+    link: "https://www.instagram.com/m.a.s.h_mallow/",
+  },
+  {
+    title: "linkedin",
+    icon: LinkedinIcon,
+    link: "https://www.linkedin.com/in/mariia-moroz-35330b236/",
+  },
+];
 
 export const navLinks = [
   {

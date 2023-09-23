@@ -1,8 +1,8 @@
 import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
 
-import { fadeIn } from "../utils/motion";
-import { github } from "../assets";
+import { fadeIn } from "../../utils/motion";
+import { GithubIcon } from "../../assets";
 
 const ProjectCard = ({ project, index }) => {
   const { name, description, tags, image, sourceCodeLink } = project;
@@ -28,10 +28,9 @@ const ProjectCard = ({ project, index }) => {
               onClick={() => window.open(sourceCodeLink, "_blank")}
               className='bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
             >
-              <img
-                src={github}
-                alt={github}
+              <GithubIcon
                 className='w-[60%] h-[60%] object-contain'
+                alt='github'
               />
             </div>
           </div>
