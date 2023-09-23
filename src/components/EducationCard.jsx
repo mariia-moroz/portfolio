@@ -5,7 +5,7 @@ const EducationCard = ({ education }) => {
   const { title, universityName, icon, iconBg, date, points } = education;
   return (
     <VerticalTimelineElement
-      contentStyle={{ background: "#1d1836", color: "#fff" }}
+      contentStyle={{ background: "#2e2369ea", color: "#fff" }}
       contentArrowStyle={{ borderRight: "7px solid #232631" }}
       date={date}
       iconStyle={{ background: iconBg }}

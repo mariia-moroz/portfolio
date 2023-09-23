@@ -8,11 +8,11 @@ const TechCard = ({ index, title, icon }) => {
     <Tilt className='xs:w-[150px] w-[120px]'>
       <motion.div
         variants={fadeIn("right", "spring", 0.4 * index, 0.65)}
-        className='w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card'
+        className='w-full green-pink-gradient-border shadow-card'
       >
         <div
           options={{ max: 45, scale: 1, speed: 450 }}
-          className='bg-tertiary rounded-[20px] py-5 px-8 min-h-[170px] flex justify-evenly items-center flex-col'
+          className=' glassmorphism rounded-[20px] py-5 px-8 min-h-[170px] flex justify-evenly items-center flex-col'
         >
           {icon && (
             <img src={icon} alt={title} className='w-16 h-16 object-contain' />
