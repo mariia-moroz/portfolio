@@ -49,7 +49,7 @@ const Contact = () => {
       <div className='xl:mt-12 flex gap-10 justify-center overflow-hidden'>
         <motion.div
           variants={fadeIn("up", "tween", 0.2, 0.8)}
-          className='max-lg:flex-[0.95] flex-[0.65] rounded-[20px] green-pink-gradient-border'
+          className='flex max-lg:w-full lg:flex-[0.65] rounded-[20px] green-pink-gradient-border'
         >
           <div
             className='glassmorphism rounded-[20px] p-8'
