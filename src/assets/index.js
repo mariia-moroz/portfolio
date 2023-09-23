@@ -18,9 +18,9 @@ import cardiff from "./education/cardiff.png";
 import goit from "./education/goit.png";
 import kpi from "./education/kpi.png";
 
-import petly from "./petly.png";
-import filmoteka from "./filmoteka.png";
-import sms from "./sms.png";
+import petly from "./projects/petly.png";
+import filmoteka from "./projects/filmoteka.png";
+import sms from "./projects/sms.png";
 
 export {
   github,
