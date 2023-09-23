@@ -6,7 +6,7 @@ const SoftSkills = () => {
   return (
     <motion.div
       variants={fadeIn("up", "tween", 0.2, 0.8)}
-      className='w-full max-w-[480px] rounded-[20px] green-pink-gradient-border'
+      className='w-full max-w-[480px] rounded-[20px] green-pink-gradient-border mx-auto'
     >
       <div
         className='glassmorphism lg:w-[478px] w-full h-full rounded-[20px] p-12'
