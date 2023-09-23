@@ -1,9 +1,4 @@
-import {
-  EarthCanvas,
-  BallCanvas,
-  ComputersCanvas,
-  StarsCanvas,
-} from "./canvas";
+import { StarsCanvas } from "./canvas";
 import Hero from "./Hero";
 import Navbar from "./Navbar";
 import Menu from "./Menu";
@@ -28,8 +23,5 @@ export {
   TechCard,
   EducationCard,
   ProjectCard,
-  EarthCanvas,
-  BallCanvas,
-  ComputersCanvas,
   StarsCanvas,
 };

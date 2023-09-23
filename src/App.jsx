@@ -1,4 +1,5 @@
 import { BrowserRouter } from "react-router-dom";
+import { Toaster } from "react-hot-toast";
 
 import {
   About,
@@ -15,7 +16,7 @@ const App = () => {
   return (
     <BrowserRouter>
       <div className='relative z-0 bg-primary'>
-        <div className='bg-hero-pattern bg-cover bg-no-repeat bg-center'>
+        <div className='bg-hero-pattern bg-cover bg-no-repeat bg-center '>
           <Navbar />
           <Hero />
         </div>
@@ -23,13 +24,37 @@ const App = () => {
         <Education />
         <Tech />
         <Works />
-        <div className='relative z-0'>
-          <Contact />
-          <StarsCanvas />
-        </div>
+        <Contact />
+        <StarsCanvas />
+        <div className='absolute inset-0 z-[-3] w-full h-full gradient-01 opacity-20'></div>
       </div>
+      <Toaster />
     </BrowserRouter>
   );
 };
 
 export default App;
+
+{
+  /* <BrowserRouter>
+  <div className='relative z-0 bg-primary'>
+    <div className='bg-hero-pattern bg-cover bg-no-repeat bg-center '>
+      <Navbar />
+      <div className='relative z-0'>
+        <Hero />
+        <StarsCanvas />
+      </div>
+    </div>
+    <About />
+    <Education />
+    <Tech />
+    <Works />
+    <div className='relative z-0'>
+      <Contact />
+      <StarsCanvas />
+    </div>
+    <div className='absolute inset-0 z-[-3] w-full h-full gradient-01 opacity-20'></div>
+  </div>
+  <Toaster />
+</BrowserRouter>; */
+}
