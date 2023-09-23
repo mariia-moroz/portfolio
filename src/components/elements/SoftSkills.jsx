@@ -16,7 +16,7 @@ const SoftSkills = () => {
           {softSkills.map(skill => (
             <li key={skill.title}>
               <p className='text-[18px] mb-4'>{skill.title}</p>
-              <div className='w-[100%] h-[10px] rounded-full bg-tertiary opacity-90'>
+              <div className='w-[100%] h-[10px] rounded-full bg-tertiary'>
                 <div
                   className={`rounded-full h-full bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500`}
                   style={{ width: `${skill.percentage}%` }}

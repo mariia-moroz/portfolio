@@ -52,7 +52,7 @@ const Contact = () => {
           className='flex max-lg:w-full lg:flex-[0.65] rounded-[20px] green-pink-gradient-border'
         >
           <div
-            className='glassmorphism rounded-[20px] p-8'
+            className='glassmorphism rounded-[20px] xs:p-8 py-8 px-6'
             style={{ boxShadow: "none" }}
           >
             <p className={`${styles.sectionSubText}`}>Get in touch</p>
@@ -60,7 +60,7 @@ const Contact = () => {
             <form
               ref={formRef}
               onSubmit={handleSubmit}
-              className='mt-12 flex flex-col gap-8 items-center'
+              className='mt-8 flex flex-col gap-8 items-center'
             >
               <label className='flex flex-col w-full'>
                 <span className='text-white font-medium mb-4'>Your Name</span>
@@ -70,7 +70,7 @@ const Contact = () => {
                   value={name}
                   onChange={e => setName(e.target.value)}
                   placeholder="What's your name?"
-                  className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outlined-none border-none font-medium opacity-90'
+                  className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-blue-500 border-[1px] border-solid border-[#4e4198] font-medium'
                 />
               </label>
               <label className='flex flex-col w-full'>
@@ -81,7 +81,7 @@ const Contact = () => {
                   value={email}
                   onChange={e => setEmail(e.target.value)}
                   placeholder="What's your email?"
-                  className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outlined-none border-none font-medium opacity-90'
+                  className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg  outline-blue-500 border-[1px] border-solid border-[#4e4198] font-medium'
                 />
               </label>
               <label className='flex flex-col w-full'>
@@ -94,7 +94,7 @@ const Contact = () => {
                   value={message}
                   onChange={e => setMessage(e.target.value)}
                   placeholder='What do you want to say?'
-                  className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outlined-none border-none font-medium resize-none opacity-90'
+                  className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-blue-500 border-[1px] border-solid border-[#4e4198] font-medium resize-none'
                 />
               </label>
               <button
