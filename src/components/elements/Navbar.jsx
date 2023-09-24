@@ -69,7 +69,7 @@ const Navbar = () => {
           <div
             className={`${
               isOpenMenu ? "flex" : "hidden"
-            } p-6 bg-gradient-to-r from-[#373061] to-[#1d0745]  absolute top-20 right-0 mx-6 my-2 min-w-[140px] z-10 rounded-xl`}
+            } px-8 py-6 bg-gradient-to-r from-[#373061] to-[#1d0745] absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl`}
           >
             <Menu active={active} onLinkClick={onLinkClick} isMobile={true} />
           </div>

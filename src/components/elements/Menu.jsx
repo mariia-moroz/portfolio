@@ -21,7 +21,7 @@ const Menu = props => {
                 active === title ? "text-white" : "text-secondary"
               } ${
                 isMobile
-                  ? "font-poppins text-[16px]"
+                  ? "font-poppins text-[18px]"
                   : "hover:text-white text-[18px]"
               }  font-medium cursor-pointer`}
               onClick={() => onLinkClick(title, isMobile)}

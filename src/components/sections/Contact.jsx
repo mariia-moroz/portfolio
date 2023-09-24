@@ -70,7 +70,7 @@ const Contact = () => {
                   value={name}
                   onChange={e => setName(e.target.value)}
                   placeholder="What's your name?"
-                  className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-blue-500 border-[1px] border-solid border-[#4e4198] font-medium'
+                  className='bg-tertiary py-4 xs:px-6 px-4 placeholder:text-secondary text-white rounded-lg outline-blue-500 border-[1px] border-solid border-[#4e4198] font-medium'
                 />
               </label>
               <label className='flex flex-col w-full'>
@@ -81,7 +81,7 @@ const Contact = () => {
                   value={email}
                   onChange={e => setEmail(e.target.value)}
                   placeholder="What's your email?"
-                  className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg  outline-blue-500 border-[1px] border-solid border-[#4e4198] font-medium'
+                  className='bg-tertiary py-4 xs:px-6 px-4 placeholder:text-secondary text-white rounded-lg  outline-blue-500 border-[1px] border-solid border-[#4e4198] font-medium'
                 />
               </label>
               <label className='flex flex-col w-full'>
@@ -94,7 +94,7 @@ const Contact = () => {
                   value={message}
                   onChange={e => setMessage(e.target.value)}
                   placeholder='What do you want to say?'
-                  className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-blue-500 border-[1px] border-solid border-[#4e4198] font-medium resize-none'
+                  className='bg-tertiary py-4 xs:px-6 px-4 placeholder:text-secondary text-white rounded-lg outline-blue-500 border-[1px] border-solid border-[#4e4198] font-medium resize-none'
                 />
               </label>
               <button

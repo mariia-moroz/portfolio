@@ -17,7 +17,7 @@ const ProjectCard = ({ project, index }) => {
         className='w-full h-full green-pink-gradient-border p-[1px] rounded-[20px] shadow-card '
       >
         <div className='relative w-full h-full glassmorphism p-5 rounded-[20px]'>
-          <div className='relative w-full h-[230px]'>
+          <div className='relative w-full xs:h-[230px] h-[190px]'>
             <img
               src={image}
               alt={name}
@@ -48,7 +48,7 @@ const ProjectCard = ({ project, index }) => {
           </div>
           <div className='mt-5'>
             <h3 className='text-white font-bold text-[24px]'>{name}</h3>
-            <p className='mt-2 text-secondary text-[14px]'>{description}</p>
+            <p className='mt-2 text-secondary text-[15px]'>{description}</p>
           </div>
           <div className='mt-4 flex flex-wrap gap-2'>
             {tags.map((tag, tagIndex) => (
