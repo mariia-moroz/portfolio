@@ -21,7 +21,6 @@ const ProjectCard = ({ project, index }) => {
             <img
               src={image}
               alt={name}
-              loading='lazy'
               className='w-full h-full object-cover rounded-[10px]'
             />
           </div>

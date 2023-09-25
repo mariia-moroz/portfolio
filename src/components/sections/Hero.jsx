@@ -32,7 +32,6 @@ const Hero = () => {
         <img
           src={MyImage}
           alt='me'
-          loading='lazy'
           className='lg:w-[380px] sm:w-[320px] xs:w-[280px] w-[220px] lg:mx-0 mx-auto'
         />
       </div>
