@@ -15,7 +15,12 @@ const TechCard = ({ index, title, icon }) => {
           className='glassmorphism rounded-[20px] py-5 px-8 min-h-[160px] flex justify-evenly items-center flex-col'
         >
           {icon && (
-            <img src={icon} alt={title} className='w-16 h-16 object-contain' />
+            <img
+              src={icon}
+              alt={title}
+              loading='lazy'
+              className='w-16 h-16 object-contain'
+            />
           )}
           <p className='text-white xs:text-[18px] text-[16px] font-semibold text-center'>
             {title}
