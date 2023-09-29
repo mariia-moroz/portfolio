@@ -68,7 +68,7 @@ const softSkills = [
     percentage: 95,
   },
   {
-    title: "Time managemant",
+    title: "Time management",
     percentage: 90,
   },
   {
