@@ -150,6 +150,19 @@ const education = [
     ],
   },
   {
+    title: "Full Stack Developer",
+    universityName: "GoIT (Kiev, Ukraine)",
+    icon: goit,
+    iconBg: "#F7F9FC",
+    date: "Sep 2021 - Sep 2022",
+    points: [
+      "Implementing responsive design and ensuring cross-browser compatibility (HTML + CSS)",
+      "Developing and maintaining web applications using React.js (JavaScript) and other related technologies (Redux Toolkit, Rest APIs)",
+      "Backend development with Express.js (Node.js) and MongoDB management system",
+      "Collaborating with cross-functional teams to create high-quality products",
+    ],
+  },
+  {
     title: "BSc Information Systems and Technologies",
     universityName:
       "National Technical University of Ukraine “Igor Sikorsky Kyiv Polytechnic Institute” (Kiev, Ukraine)",
@@ -162,19 +175,6 @@ const education = [
       "Development of web applications on the Microsoft.NET (HTML/CSS/JS, C#)",
       "Development of Mobile Applications (Java, Kotlin)",
       "Data Analysis/Algorithms",
-    ],
-  },
-  {
-    title: "Full Stack Developer",
-    universityName: "GoIT (Kiev, Ukraine)",
-    icon: goit,
-    iconBg: "#F7F9FC",
-    date: "Sep 2021 - Sep 2022",
-    points: [
-      "Implementing responsive design and ensuring cross-browser compatibility (HTML + CSS)",
-      "Developing and maintaining web applications using React.js (JavaScript) and other related technologies (Redux Toolkit, Rest APIs)",
-      "Backend development with Express.js (Node.js) and MongoDB management system",
-      "Collaborating with cross-functional teams to create high-quality products",
     ],
   },
 ];
