@@ -135,6 +135,21 @@ const technologies = [
 
 const education = [
   {
+    title: "MSc Software Engineering",
+    universityName: "Cardiff University (Cardiff, UK)",
+    icon: cardiff,
+    iconBg: "#F7F9FC",
+    date: "Sep 2022 - Sep 2023",
+    points: [
+      "Agile Software Development",
+      "Developing and maintaining web applications (HTML/CSS/JS)",
+      "Programming Principles and Practice (Java)",
+      "DevOps (Jenkins, CI/CD)",
+      "Manipulating and Exploiting Data (Python)",
+      "Delivering User Experience",
+    ],
+  },
+  {
     title: "BSc Information Systems and Technologies",
     universityName:
       "National Technical University of Ukraine “Igor Sikorsky Kyiv Polytechnic Institute” (Kiev, Ukraine)",
@@ -160,21 +175,6 @@ const education = [
       "Developing and maintaining web applications using React.js (JavaScript) and other related technologies (Redux Toolkit, Rest APIs)",
       "Backend development with Express.js (Node.js) and MongoDB management system",
       "Collaborating with cross-functional teams to create high-quality products",
-    ],
-  },
-  {
-    title: "MSc Software Engineering",
-    universityName: "Cardiff University (Cardiff, UK)",
-    icon: cardiff,
-    iconBg: "#F7F9FC",
-    date: "Sep 2022 - Sep 2023",
-    points: [
-      "Agile Software Development",
-      "Developing and maintaining web applications (HTML/CSS/JS)",
-      "Programming Principles and Practice (Java)",
-      "DevOps (Jenkins, CI/CD)",
-      "Manipulating and Exploiting Data (Python)",
-      "Delivering User Experience",
     ],
   },
 ];
