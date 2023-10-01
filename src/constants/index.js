@@ -223,7 +223,7 @@ const projects = [
         name: "scss",
       },
       {
-        name: "parcell",
+        name: "parcel",
       },
     ],
     image: filmoteka,
