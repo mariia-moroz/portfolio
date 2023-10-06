@@ -30,12 +30,12 @@ export const socialLinks = [
   {
     title: "instagram",
     icon: InstagramIcon,
-    link: "https://www.instagram.com/m.a.s.h_mallow/",
+    link: "https://www.instagram.com/m.a.s.h_mallow",
   },
   {
     title: "linkedin",
     icon: LinkedinIcon,
-    link: "https://www.linkedin.com/in/mariia-moroz-35330b236/",
+    link: "https://www.linkedin.com/in/mma-mariia-moroz",
   },
 ];
 
