@@ -27,7 +27,7 @@ const EducationCard = ({ education }) => {
         >
           {universityName}
         </p>
-        <ul className='mt-5 list-disc ml-5 space-y-2'>
+        <ul className='mt-5 list-disc ml-5 lg:mb-0 mb-2 space-y-2'>
           {points.map((point, index) => {
             return (
               <li
