@@ -134,7 +134,16 @@ body {
 
   transition: 300ms background-position ease-in-out;
 }
+
 .button-gradient:hover,
 .button-gradient:focus {
   background-position: right;
+}
+
+.vertical-timeline-element-content {
+  border-radius: 10px !important;
+}
+
+.vertical-timeline-element-content-arrow {
+  border-right: 7px solid rgba(46, 35, 105, 0.918) !important;
 }
