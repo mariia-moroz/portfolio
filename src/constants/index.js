@@ -151,7 +151,7 @@ const education = [
   },
   {
     title: "Full Stack Developer",
-    universityName: "GoIT (Kiev, Ukraine)",
+    universityName: "GoIT (Kyiv, Ukraine)",
     icon: goit,
     iconBg: "#F7F9FC",
     date: "Sep 2021 - Sep 2022",
@@ -165,7 +165,7 @@ const education = [
   {
     title: "BSc Information Systems and Technologies",
     universityName:
-      "National Technical University of Ukraine “Igor Sikorsky Kyiv Polytechnic Institute” (Kiev, Ukraine)",
+      "National Technical University of Ukraine “Igor Sikorsky Kyiv Polytechnic Institute” (Kyiv, Ukraine)",
     icon: kpi,
     iconBg: "#F7F9FC",
     date: "Sep 2018 - Jun 2022",
