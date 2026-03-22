@@ -1,121 +1,161 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-    scroll-behavior: smooth;
-    color-scheme: dark;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+  color-scheme: dark;
 }
 
 [id] {
-    scroll-margin-top: 80px;
+  scroll-margin-top: 80px;
 }
 
 body {
-    min-width: 320px;
-    background-color: #0a011a;
+  min-width: 320px;
+  background-color: #0a011a;
 }
 
 .hash-span {
-    margin-top: -100px;
-    padding-bottom: 100px;
-    display: block;
+  margin-top: -100px;
+  padding-bottom: 100px;
+  display: block;
 }
 
 .black-gradient {
-    background: #000000; /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #434343, #000000); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #000000; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #434343,
+    #000000
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #434343,
+    #000000
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .violet-gradient {
-    background: #804dee;
-    background: linear-gradient(-90deg, #804dee 0%, rgba(60, 51, 80, 0) 100%);
-    background: -webkit-linear-gradient(-90deg, #804dee 0%, rgba(60, 51, 80, 0) 100%);
+  background: #804dee;
+  background: linear-gradient(-90deg, #804dee 0%, rgba(60, 51, 80, 0) 100%);
+  background: -webkit-linear-gradient(
+    -90deg,
+    #804dee 0%,
+    rgba(60, 51, 80, 0) 100%
+  );
 }
 
 .green-pink-gradient {
-    background: '#00cea8';
-    background: linear-gradient(90.13deg, #00cea8 1.9%, #bf61ff 97.5%);
-    background: -webkit-linear-gradient(-90.13deg, #00cea8 1.9%, #bf61ff 97.5%);
+  background: "#00cea8";
+  background: linear-gradient(90.13deg, #00cea8 1.9%, #bf61ff 97.5%);
+  background: -webkit-linear-gradient(-90.13deg, #00cea8 1.9%, #bf61ff 97.5%);
 }
 
 .green-pink-gradient-border,
 .green-pink-gradient-border-circle {
-    display: flow-root;
-    position: relative;
-    padding: 1px;
+  display: flow-root;
+  position: relative;
+  padding: 1px;
 }
 
 .green-pink-gradient-border::before,
 .green-pink-gradient-border-circle::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    border: 1px solid transparent;
-    background: linear-gradient(90.13deg, #00cea8 1.9%, #bf61ff 97.5%) border-box;
-    -webkit-mask: linear-gradient(90.13deg, #00cea8 1.9%, #bf61ff 97.5%) padding-box, linear-gradient(#fff 0 0);
-    -webkit-mask-composite: destination-out;
-    mask-composite: exclude;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 1px solid transparent;
+  background: linear-gradient(90.13deg, #00cea8 1.9%, #bf61ff 97.5%) border-box;
+  -webkit-mask:
+    linear-gradient(90.13deg, #00cea8 1.9%, #bf61ff 97.5%) padding-box,
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: destination-out;
+  mask-composite: exclude;
 }
 
 .green-pink-gradient-border::before {
-    border-radius: 20px;
+  border-radius: 20px;
 }
 
 .green-pink-gradient-border-circle::before {
-    border-radius: 100%;
+  border-radius: 100%;
 }
 
 .gradient-01 {
-    background-image: -webkit-linear-gradient(to right, #434343, #000000); /* Chrome 10-25, Safari 5.1-6 */
-    background-image: linear-gradient(270deg, hsl(295, 79%, 44%) 0%, #a509ff 26%, hsl(257, 39%, 63%) 39%, hsl(202, 52%, 65%) 50%, hsl(215, 63%, 66%) 61%, hsl(221, 54%, 57%) 74%, hsl(220, 79%, 42%) 100%);
-    filter: blur(125px);
+  background-image: -webkit-linear-gradient(
+    to right,
+    #434343,
+    #000000
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background-image: linear-gradient(
+    270deg,
+    hsl(295, 79%, 44%) 0%,
+    #a509ff 26%,
+    hsl(257, 39%, 63%) 39%,
+    hsl(202, 52%, 65%) 50%,
+    hsl(215, 63%, 66%) 61%,
+    hsl(221, 54%, 57%) 74%,
+    hsl(220, 79%, 42%) 100%
+  );
+  filter: blur(125px);
 }
 
 .glassmorphism {
-    background: rgba(186, 148, 255, 0.1);
-    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-    backdrop-filter: blur(4px);
-    -webkit-backdrop-filter: blur(4px);
-    /* border: 1px solid rgba(255, 255, 255, 0.18); */
+  background: rgba(186, 148, 255, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  /* border: 1px solid rgba(255, 255, 255, 0.18); */
 }
 
 .glassmorphism-header {
-    background: rgba(36, 29, 84, 0.9);
-    box-shadow: 0 8px 32px 0 rgba(9, 12, 51, 0.37);
-    backdrop-filter: blur(6px);
-    -webkit-backdrop-filter: blur(6px);
-    border-bottom: 1px solid rgba(238, 220, 255, 0.18);
+  background: rgba(36, 29, 84, 0.9);
+  box-shadow: 0 8px 32px 0 rgba(9, 12, 51, 0.37);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  border-bottom: 1px solid rgba(238, 220, 255, 0.18);
 }
 
 .button-gradient {
-    background-color: #6366f1;
-    background-size: 200%;
-    background-position: left;
-    background-image: linear-gradient(to right, #6366f1 0%, #a855f7 50%, #ec4899 100%);
+  background-color: #6366f1;
+  background-size: 200%;
+  background-position: left;
+  background-image: linear-gradient(
+    to right,
+    #6366f1 0%,
+    #a855f7 50%,
+    #ec4899 100%
+  );
 
-    transition: 300ms background-position ease-in-out;
+  transition: 300ms background-position ease-in-out;
 }
 
 .button-gradient:hover,
 .button-gradient:focus {
-    background-position: right;
+  background-position: right;
 }
 
 .vertical-timeline-element-content {
-    border-radius: 10px !important;
+  border-radius: 10px !important;
 }
 
 .vertical-timeline-element-content-arrow {
-    border-right: 7px solid rgba(46, 35, 105, 0.918) !important;
+  border-right: 7px solid rgba(46, 35, 105, 0.918) !important;
+}
+
+@media (max-width: 768px) {
+  .glassmorphism,
+  .glassmorphism-header {
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+  }
 }
