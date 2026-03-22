@@ -2,7 +2,7 @@ import { socialLinks } from "../../constants";
 
 const SocialLinksMenu = () => {
   return (
-    <ul className='list-none flex gap-4 mt-6'>
+    <ul className='list-none flex gap-4 mt-8'>
       {socialLinks.map(link => (
         <li
           key={link.title}
