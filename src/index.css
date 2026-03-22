@@ -151,3 +151,7 @@ body {
 .vertical-timeline-element-content-arrow {
   border-right: 7px solid rgba(46, 35, 105, 0.918) !important;
 }
+
+.vertical-timeline-element-date {
+  font-size: 16px !important;
+}
