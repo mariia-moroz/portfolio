@@ -22,9 +22,10 @@ const Hero = () => {
             </h1>
             <p className={`${styles.heroSubText} mt-3 text-white-100`}>
               A Full-Stack Software Engineer from Ukraine 🇺🇦 now based in
-              London, UK 🇬🇧 <br />I build scalable web applications and
-              real-time data systems using JavaScript/TypeScript, Node.js, and
-              React. My experience covers both backend and frontend development,
+              London, UK <br />I build scalable web applications and real-time
+              data systems using JavaScript/TypeScript, Node.js, and React.{" "}
+              <br />
+              My experience covers both backend and frontend development,
               including API design, distributed systems, and modern user
               interfaces.
             </p>
