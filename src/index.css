@@ -106,6 +106,7 @@ body {
     hsl(221, 54%, 57%) 74%,
     hsl(220, 79%, 42%) 100%
   );
+  filter: blur(100);
 }
 
 .glassmorphism {
