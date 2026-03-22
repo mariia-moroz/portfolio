@@ -106,7 +106,6 @@ body {
     hsl(221, 54%, 57%) 74%,
     hsl(220, 79%, 42%) 100%
   );
-  filter: blur(125px);
 }
 
 .glassmorphism {
@@ -150,12 +149,4 @@ body {
 
 .vertical-timeline-element-content-arrow {
   border-right: 7px solid rgba(46, 35, 105, 0.918) !important;
-}
-
-@media (max-width: 768px) {
-  .glassmorphism,
-  .glassmorphism-header {
-    backdrop-filter: none;
-    -webkit-backdrop-filter: none;
-  }
 }
