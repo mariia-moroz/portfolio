@@ -21,7 +21,9 @@ const ProgressCard = ({ progress }) => {
     >
       <div>
         <h3 className='text-white text-[24px] font-bold'>{title}</h3>
-        <p className='mt-1 text-secondary text-[18px] font-semibold'>{place}</p>
+        <p className='mt-1 text-secondary !text-[18px] font-semibold'>
+          {place}
+        </p>
         <ul className='mt-2 list-disc ml-5 lg:mb-0 mb-2 space-y-2'>
           {points.map((point, index) => {
             return (
