@@ -173,7 +173,7 @@ const technologies = [
 
 const work = [
   {
-    title: "Backend Software Engineer",
+    title: "Software Engineer",
     place: "CoinDesk Data - formerly CCData (London, UK)",
     icon: coindesk,
     iconBg: "#F7F9FC",
