@@ -20,12 +20,12 @@ const Contact = () => {
     const [message, setMessage] = useState('');
     const [loading, setLoading] = useState(false);
 
-    const handleSubmit = (e) => {
+    const handleSubmit = async (e) => {
         e.preventDefault();
         setLoading(true);
-        e.target.lastChild.disabled = true;
-        emailjs
-            .send(
+
+        try {
+            await emailjs.send(
                 serviceId,
                 templateId,
                 {
@@ -36,12 +36,19 @@ const Contact = () => {
                     message: message,
                 },
                 key
-            )
-            .then(() => {
-                setLoading(false);
-                toast.success('Thank you! I will get back to you as soon as possible.');
-                e.target.lastChild.disabled = false;
-            });
+            );
+
+            toast.success('Thank you! I will get back to you as soon as possible.');
+            setName('');
+            setEmail('');
+            setMessage('');
+        } catch (error) {
+            const errorText = error?.text || error?.message || 'Something went wrong while sending your message.';
+            toast.error(`Could not send message: ${errorText}`);
+            console.error('EmailJS send failed:', error);
+        } finally {
+            setLoading(false);
+        }
     };
 
     return (
@@ -85,7 +92,7 @@ const Contact = () => {
                                     className="bg-tertiary py-4 xs:px-6 px-4 placeholder:text-secondary text-white rounded-lg outline-blue-500 border-[1px] border-solid border-[#4e4198] font-medium resize-none"
                                 />
                             </label>
-                            <button type="submit" className="button-gradient py-3 px-16 outline-none w-fit text-white font-medium rounded-xl block my-auto">
+                            <button type="submit" disabled={loading} className="button-gradient py-3 px-16 outline-none w-fit text-white font-medium rounded-xl block my-auto disabled:opacity-60 disabled:cursor-not-allowed">
                                 {loading ? 'Sending...' : 'Send'}
                             </button>
                         </form>
