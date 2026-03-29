@@ -24,7 +24,13 @@ const Contact = () => {
     e.preventDefault();
     setLoading(true);
 
-    if (!name || !email || !message) {
+    if (
+      !name ||
+      !email ||
+      !message ||
+      name.trim() === "" ||
+      message.trim() === ""
+    ) {
       toast.error("Please fill in all fields before sending your message.");
       setLoading(false);
       return;
