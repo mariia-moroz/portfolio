@@ -2,7 +2,7 @@
 
 **Link:** https://mariia-moroz.netlify.app/
 
-This is my personal **portfolio website**, built to showcase my projects, skills, and experience as a developer. The site combines modern frontend technologies with smooth animations and interactive 3D elements.
+This is my personal **portfolio website**, built with **Vite** to showcase my projects, skills, and experience as a developer. The site combines modern frontend technologies with smooth animations and interactive 3D elements.
 
 ---
 
@@ -10,6 +10,7 @@ This is my personal **portfolio website**, built to showcase my projects, skills
 
 -   **HTML5 & CSS3** → Semantic structure and responsive layouts
 -   **React.js** → Core framework for building the application
+-   **Vite** → Fast development server and optimized production builds
     -   **High-Order Components (HOC)** → Code reusability and modular architecture
     -   **React Router** → Dynamic page routing and smooth navigation
     -   **Dynamic Rendering** → Efficient rendering of components based on data/state
@@ -62,14 +63,20 @@ The goal of this project is to demonstrate:
     npm install
     ```
 
-3.  Start the development server:
+3.  Start the Vite development server:
 
     ```
-    npm start
+    npm run dev
     ```
 
 4.  Build for production:
 
     ```
     npm run build
+    ```
+
+5.  Preview the production build locally:
+
+    ```
+    npm run preview
     ```

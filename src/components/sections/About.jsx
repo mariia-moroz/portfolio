@@ -25,14 +25,12 @@ const About = () => {
             career in the UK tech industry.
           </p>
           <p className='mt-2'>What I do:</p>
-          <p>
-            <ul className='list-disc ml-5'>
-              <li>Develop scalable backend services and APIs</li>
-              <li>Build responsive, user-focused frontend applications</li>
-              <li>Work with real-time data systems and integrations</li>
-              <li>Focus on performance, reliability, and clean architecture</li>
-            </ul>
-          </p>
+          <ul className='list-disc ml-5'>
+            <li>Develop scalable backend services and APIs</li>
+            <li>Build responsive, user-focused frontend applications</li>
+            <li>Work with real-time data systems and integrations</li>
+            <li>Focus on performance, reliability, and clean architecture</li>
+          </ul>
           <p className='mt-2'>What drives me:</p>
           <p>
             I enjoy solving complex problems and building scalable,

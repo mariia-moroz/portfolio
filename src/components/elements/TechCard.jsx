@@ -1,19 +1,34 @@
-import { Tilt } from 'react-tilt';
-import { motion } from 'framer-motion';
+import { motion } from "framer-motion";
 
-import { fadeIn } from '../../utils/motion';
+import { fadeIn } from "../../utils/motion";
+import TiltCard from "./TiltCard";
 
 const TechCard = ({ index, title, icon }) => {
-    return (
-        <Tilt className="xs:w-[150px] w-[145px]">
-            <motion.div variants={fadeIn('right', 'spring', 0.4 * index, 0.65)} className="w-full green-pink-gradient-border shadow-card">
-                <div options={{ max: 45, scale: 1, speed: 510 }} className="glassmorphism rounded-[20px] py-5 px-8 min-h-[160px] flex justify-evenly items-center flex-col">
-                    {icon && <img src={icon} alt={title} loading="lazy" className="w-16 h-16 object-contain" />}
-                    <p className="text-white xs:text-[18px] text-[16px] font-semibold text-center">{title}</p>
-                </div>
-            </motion.div>
-        </Tilt>
-    );
+  return (
+    <TiltCard
+      className='xs:w-[150px] w-[145px]'
+      options={{ max: 45, scale: 1, speed: 510 }}
+    >
+      <motion.div
+        variants={fadeIn("right", "spring", 0.4 * index, 0.65)}
+        className='w-full green-pink-gradient-border shadow-card'
+      >
+        <div className='glassmorphism rounded-[20px] py-5 px-8 min-h-[160px] flex justify-evenly items-center flex-col'>
+          {icon && (
+            <img
+              src={icon}
+              alt={title}
+              loading='lazy'
+              className='w-16 h-16 object-contain'
+            />
+          )}
+          <p className='text-white xs:text-[18px] text-[16px] font-semibold text-center'>
+            {title}
+          </p>
+        </div>
+      </motion.div>
+    </TiltCard>
+  );
 };
 
 export default TechCard;

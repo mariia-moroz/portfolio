@@ -1,14 +1,14 @@
-import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
 
 import { fadeIn } from "../../utils/motion";
 import { GithubIcon, LinkIcon } from "../../assets";
+import TiltCard from "./TiltCard";
 
 const ProjectCard = ({ project, index }) => {
   const { name, description, tags, image, sourceCodeLink, deployedLink } =
     project;
   return (
-    <Tilt
+    <TiltCard
       options={{ max: 45, scale: 1, speed: 450 }}
       className='sm:w-[360px] sm:max-w-full max-w-[360px] w-full'
     >
@@ -63,7 +63,7 @@ const ProjectCard = ({ project, index }) => {
           </div>
         </div>
       </motion.div>
-    </Tilt>
+    </TiltCard>
   );
 };
 

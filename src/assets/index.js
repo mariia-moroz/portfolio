@@ -1,8 +1,8 @@
-import { ReactComponent as Logo } from './logo.svg';
-import { ReactComponent as GithubIcon } from './socials/github.svg';
-import { ReactComponent as InstagramIcon } from './socials/instagram.svg';
-import { ReactComponent as LinkedinIcon } from './socials/linkedin.svg';
-import { ReactComponent as LinkIcon } from './socials/link.svg';
+import Logo from './logo.svg?react';
+import GithubIcon from './socials/github.svg?react';
+import InstagramIcon from './socials/instagram.svg?react';
+import LinkedinIcon from './socials/linkedin.svg?react';
+import LinkIcon from './socials/link.svg?react';
 import menu from './menu.svg';
 import close from './close.svg';
 
