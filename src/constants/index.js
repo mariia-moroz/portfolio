@@ -20,6 +20,7 @@ import {
   petly,
   filmoteka,
   sms,
+  feelgreat,
   meta,
   redis,
   postgres,
@@ -252,6 +253,31 @@ const courses = [
 ];
 
 const projects = [
+  {
+    name: "FeelGreat",
+    description:
+      "A healthcare appointment scheduling platform that lets patients register, submit medical/verification details and book appointments with doctors through a streamlined digital flow. Includes an admin dashboard for reviewing, scheduling, and cancelling appointments.",
+    tags: [
+      {
+        name: "next.js",
+      },
+      {
+        name: "appwrite",
+      },
+      {
+        name: "shadcn/ui",
+      },
+      {
+        name: "tailwind",
+      },
+      {
+        name: "twilio",
+      },
+    ],
+    image: feelgreat,
+    sourceCodeLink: "https://github.com/mariia-moroz/feelgreat",
+    deployedLink: "https://ufeelgreat.vercel.app",
+  },
   {
     name: "Petly",
     description:
